@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    double a;
+    double b;
+    double h;
+    double Area;
+    scanf("%lf",&a);
+    scanf("%lf",&b);
+    scanf("%lf",&h);
+    
+    if(a<1 || b<1 || h<1)
+    {
+        printf("The inputs are wrong.");
+        
+    }
+    else
+    {
+    
+        Area=(a+b)/2*h;
+        printf("%lf",Area);
+    }
+
+    return 0;
+}

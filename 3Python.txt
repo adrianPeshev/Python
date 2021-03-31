@@ -1,0 +1,9 @@
+a =int(input())
+b =int(input())
+h =int(input())
+
+if a<1 or b<1 or h<1:
+    print("The inputs are wrong")
+else:
+    Area =(a+b)/2*h
+    print(Area)
